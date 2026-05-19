@@ -15,8 +15,8 @@ function Item({ nombre, precio, stock }) {
     }
     
 const imprimirFavorito = () => {
-            if (esFavorito) { return "❤️ favorito"; } 
-            else { return "no favorito"; }
+            if (esFavorito) { return "❤️ Favorito"; } 
+            else { return "No Favorito"; }
         }
 
 
