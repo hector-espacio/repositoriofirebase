@@ -2,7 +2,7 @@ import styles from './TarjetaContacto.module.css';
 
 function TarjetaContacto({ nombre, email, puesto, foto }) {
   return (
-    <div className="col-md-3 mb-3">
+    <div>
       <div className="card text-center">
         <img 
           src={foto} 

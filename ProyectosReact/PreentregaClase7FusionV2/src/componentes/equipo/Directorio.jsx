@@ -27,7 +27,16 @@ function Directorio() {
   if (error) return <p>Error: {error}</p>;
 
   return (
-    <div className="row">
+  
+  <div style={{
+    display: 'flex',
+    flexDirection: 'row',   // Alinea las tarjetas en fila (horizontal)
+    flexWrap: 'wrap',       // Si no caben en la pantalla, bajan a la siguiente línea
+    gap: '20px',            // Añade separación entre las tarjetas
+    justifyContent: 'center' // Opcional: centra las tarjetas en la pantalla
+  }}>
+  
+   
       {usuarios.map(user => (
         <TarjetaContacto key={user.id} {...user} />
       ))}

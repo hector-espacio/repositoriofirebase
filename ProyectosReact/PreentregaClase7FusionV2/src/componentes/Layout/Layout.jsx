@@ -1,20 +1,17 @@
+import { Outlet } from "react-router-dom";
 import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 
-function Layout({ children }) {
+function Layout() {
     return (
-        <div className="app">
+        <div>
             <Header />
-            <main className="container">
-                {children}
+            <main>
+                <Outlet />
             </main>
             <Footer />
         </div>
     );
-} 
-
-const styles = {
-    
 }
 
 export default Layout;

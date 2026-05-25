@@ -1,5 +1,5 @@
 .avatar {
-  width: 100%;
+  width: 90px;
   aspect-ratio: 1 / 1;   /* cuadrado uniforme */
   object-fit: cover;     /* recorte sin deformar */
 }

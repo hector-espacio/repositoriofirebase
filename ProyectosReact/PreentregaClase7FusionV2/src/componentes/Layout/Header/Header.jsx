@@ -1,19 +1,22 @@
-export default function Header() {
+import { Link } from "react-router-dom";
+
+function Header() {
   return (
     <header style={styles.header}>
       <h1>Tienda React</h1>
 
       <nav>
         <ul style={styles.navList}>
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Productos</a></li>
-          <li><a href="#">Contacto</a></li>
-          <li><a href="#">Carrito</a></li>
+          <li><Link to="/">Inicio</Link></li>
+          <li><Link to="/productos">Productos</Link></li>
+          <li><Link to="/nuevo-producto">Nuevo Producto</Link></li>          
         </ul>
       </nav>
     </header>
   );
 }
+
+export default Header;
 
 const styles = {
   header: {

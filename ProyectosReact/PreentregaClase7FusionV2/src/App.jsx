@@ -1,16 +1,21 @@
-import ItemListContainer from "./componentes/ItemListContainer/ItemListContainer"
+import { Routes, Route } from "react-router-dom";
+import "./App.css";
+
 import Layout from "./componentes/Layout/Layout";
-import FormularioContainer from './componentes/formulario/FormularioContainer';
+
+import ItemListContainer from "./componentes/ItemListContainer/ItemListContainer";
+
+import FormularioContainer from "./componentes/formulario/FormularioContainer";
 
 function App() {
   return (
-    <Layout>
-         <h1>¡Bienvenidos a mi página!</h1>
-      <ItemListContainer Mensaje="Productos Destacados" />
-      <br />
-      <hr />
-      <FormularioContainer />
-    </Layout>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<><h1>Bienvenidos a mi Página</h1><br /><br /></>} />
+        <Route path="/productos" element={<ItemListContainer Mensaje="Productos Destacados" />}/>
+        <Route path="/nuevo-producto" element={<FormularioContainer />} />
+      </Route>
+    </Routes>
   );
 }
 
