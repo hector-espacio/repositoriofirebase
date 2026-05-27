@@ -1,9 +1,7 @@
 import { Routes, Route } from "react-router-dom";
-import "./App.css";
-
 import Layout from "./componentes/Layout/Layout";
-
-import ItemListContainer from "./componentes/ItemListContainer/ItemListContainer";
+import Nosotros from "./componentes/Nosotros/Nosotros";
+import ItemListContainer from "./componentes/productos/ItemListContainer/ItemListContainer";
 
 import FormularioContainer from "./componentes/formulario/FormularioContainer";
 
@@ -14,6 +12,7 @@ function App() {
         <Route index element={<><h1>Bienvenidos a mi Página</h1><br /><br /></>} />
         <Route path="/productos" element={<ItemListContainer Mensaje="Productos Destacados" />}/>
         <Route path="/nuevo-producto" element={<FormularioContainer />} />
+        <Route path="/nosotros" element={<Nosotros />} />
       </Route>
     </Routes>
   );

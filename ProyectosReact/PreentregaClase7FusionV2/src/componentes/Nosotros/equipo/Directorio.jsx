@@ -22,7 +22,14 @@ function Directorio() {
       });
   }, []);
 
-  if (cargando) return <p>Cargando equipo...</p>;
+  if (cargando) return <p
+  style={{
+    textAlign: 'center',
+    fontSize: '3rem',
+    fontWeight: 'bold',
+    color: 'var(--color-primario)'
+  }}
+  >Cargando ...</p>;
   
   if (error) return <p>Error: {error}</p>;
 
