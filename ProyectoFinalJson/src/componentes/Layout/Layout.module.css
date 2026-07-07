@@ -1,0 +1,14 @@
+
+.contenedorLayout {
+ 
+  display: flex;
+  flex-direction: column;
+  min-height: 100svh; /* Obliga al body a medir mínimo el alto de la pantalla */
+}
+
+/* La pieza clave: el main se estira */
+main {
+  padding: 10px 0px;
+  flex: 1; /* Esto hace que el main crezca y "empuje" al footer hacia abajo */
+}
+

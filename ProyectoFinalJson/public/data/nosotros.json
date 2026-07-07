@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "nombre": "Ana López",
+    "email": "ana@mail.com",
+    "puesto": "Atencion al Cliente",
+    "foto": "/images/mujer1.webp"
+  },
+  {
+    "id": 2,
+    "nombre": "Juan Pérez",
+    "email": "juan@mail.com",
+    "puesto": "Cocinero",
+    "foto": "/images/hombre1.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Lucía Gómez",
+    "email": "lucia@mail.com",
+    "puesto": "Encargada del Horno",
+    "foto": "/images/mujer2.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Carlos Ruiz",
+    "email": "carlos@mail.com",
+    "puesto": "Empaquetador",
+    "foto": "/images/hombre2.jpg"
+  }
+]

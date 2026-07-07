@@ -1,0 +1,91 @@
+[
+  {
+    "id": 1,
+    "nombre": "Cheeseburger",
+    "precio": 1200,
+    "stock": 50,
+    "foto": "/images/empanadas/cheeseburger.jpg",
+    "destacados": true,
+    "detalles": "Composición y proporciones del relleno (110g aprox.)\n55% Carne vacuna picada: Cocida a la plancha con sal y pimienta.\n25% Queso Cheddar: Fundido y distribuido en todo el relleno.\n15% Panceta ahumada: Picada fina y crocante.\n5% Relish o aderezo de pepinillos: Aporta el toque clásico de hamburguesa.\n\nEspecificaciones de cocción\nTemperatura: Horno fuerte a 200°C.\nTiempo: 12 a 15 minutos.\n\nInformación para personas con alergias o intolerancias\nContiene leche: Por el queso cheddar.\nContiene trigo (gluten): Por la masa."
+  },
+  {
+    "id": 2,
+    "nombre": "Carne Suave",
+    "precio": 1100,
+    "stock": 80,
+    "foto": "/images/empanadas/carne-suave.jpg",
+    "destacados": true,
+    "detalles": "Composición y proporciones del relleno (110g aprox.)\n50% Carne vacuna picada: Magra, cocida con sal y condimentos suaves.\n35% Cebolla blanca: Rehogada para aportar el dulzor natural y jugosidad.\n10% Huevo duro picado: Distribuido en el armado.\n5% Condimentos tenues: Pimentón dulce y una pizca de comino (sin ají molido).\n\nEspecificaciones de cocción\nTemperatura: Horno muy fuerte a 220°C.\nTiempo: 10 a 12 minutos.\n\nInformación para personas con alergias o intolerancias\nContiene huevo: Por el huevo duro picado en el relleno.\nContiene trigo (gluten): Por la masa."
+  },
+  {
+    "id": 3,
+    "nombre": "Jamón y Queso",
+    "precio": 1100,
+    "stock": 65,
+    "foto": "/images/empanadas/jamon-queso.jpg",
+    "destacados": true,
+    "detalles": "Composición y proporciones del relleno (110g aprox.)\n60% Queso Mozzarella: Fundido central.\n35% Jamón cocido: Cortado en cubos pequeños o tiritas uniformes.\n5% Ligante lácteo o huevo: Para evitar que el queso se escape o se infle de más en el horno.\n\nEspecificaciones de cocción\nTemperatura: Horno fuerte a 200°C.\nTiempo: 12 a 15 minutos.\n\nInformación para personas con alergias o intolerancias\nContiene leche: Por el queso mozzarella.\nContiene trigo (gluten): Por la masa."
+  },
+  {
+    "id": 4,
+    "nombre": "Pollo",
+    "precio": 1150,
+    "stock": 40,
+    "foto": "/images/empanadas/pollo.jpg",
+    "destacados": false,
+    "detalles": "Composición y proporciones del relleno (110g aprox.)\n50% Pechuga y muslo de pollo: Hervido o horneado, desmenuzado en hebras.\n35% Cebolla y morrón (rojo y verde): Salteados en aceite de girasol.\n10% Caldo de cocción concentrado: Para evitar que el pollo quede seco por dentro.\n5% Condimentos: Orégano, pimentón dulce, sal y pimienta.\n\nEspecificaciones de cocción\nTemperatura: Horno fuerte a 200°C.\nTiempo: 12 a 15 minutos.\n\nInformación para personas con alergias o intolerancias\nContiene trigo (gluten): Por la masa."
+  },
+  {
+    "id": 5,
+    "nombre": "Calabaza",
+    "precio": 1100,
+    "stock": 30,
+    "foto": "/images/empanadas/calabaza.jpg",
+    "destacados": false,
+    "detalles": "Composición y proporciones del relleno (110g aprox.)\n60% Puré de calabaza: Horneado previo para reducir el líquido, sazonado con sal, pimienta blanca y nuez moscada.\n35% Queso Mozzarella: Cortado en cubos para lograr un fundido uniforme.\n5% Cebolla rehogada: Aporta humedad y base de sabor al puré.\n\nEspecificaciones de cocción\nTemperatura: Horno fuerte a 200°C.\nTiempo: Entre 12 y 15 minutos (hasta que la masa esté dorada).\n\nInformación para personas con alergias o intolerancias\nContiene leche: Por el queso mozzarella.\nContiene trigo (gluten): Por la harina de la masa."
+  },
+  {
+    "id": 6,
+    "nombre": "Humita",
+    "precio": 1150,
+    "stock": 35,
+    "foto": "/images/empanadas/humita.jpg",
+    "detalles": "Composición y proporciones del relleno (110g aprox.)\n40% Granos de choclo amarillo: Enteros y procesados (crema de choclo).\n30% Cebolla y morrón rojo: Rehogados en aceite como base de sofrito.\n20% Queso Mozzarella: Para dar consistencia elástica al morder.\n10% Salsa blanca gruesa: Con un toque de comino y pimentón dulce.\n\nEspecificaciones de cocción\nTemperatura: Horno fuerte a 200°C.\nTiempo: 12 a 15 minutos.\n\nInformación para personas con alergias o intolerancias\nContiene leche: Por el queso y la salsa blanca.\nContiene trigo (gluten): Por la masa y el ligue de la humita."
+  },
+  {
+    "id": 7,
+    "nombre": "Espinaca",
+    "precio": 1100,
+    "stock": 45,
+    "foto": "/images/empanadas/espinaca.jpg",
+    "destacados": false,
+    "detalles": "Composición y proporciones del relleno (110g aprox.)\n50% Espinaca fresca: Blanqueada, escurrida y picada.\n30% Salsa blanca (bechamel): A base de leche, harina y manteca para ligar el relleno.\n15% Queso Mozzarella o Reggianito: Rallado e integrado.\n5% Cebolla salteada: Condimentada con sal y nuez moscada.\n\nEspecificaciones de cocción\nTemperatura: Horno fuerte a 200°C.\nTiempo: 12 a 15 minutos.\n\nInformación para personas con alergias o intolerancias\nContiene leche: Por la salsa blanca y el queso.\nContiene trigo (gluten): Por la masa y la salsa blanca."
+  },
+  {
+    "id": 8,
+    "nombre": "Roquefort y Jamon",
+    "precio": 1250,
+    "stock": 20,
+    "foto": "/images/empanadas/roquefort-jamon.jpg",
+    "destacados": false,
+    "detalles": "Composición y proporciones del relleno (110g aprox.)\n45% Queso Mozzarella: Base neutra para equilibrar la intensidad.\n30% Queso Azul (Roquefort): Desgranado e integrado al relleno.\n20% Jamón cocido: Cortado fino para contrastar la textura.\n5% Apio picado o nuez (opcional, según tu receta): O simplemente cebolla amortiguada para suavizar.\n\nEspecificaciones de cocción\nTemperatura: Horno fuerte a 200°C.\nTiempo: 12 a 15 minutos.\n\nInformación para personas con alergias o intolerancias\nContiene leche: Por la mozzarella y el queso azul.\nContiene trigo (gluten): Por la masa."
+  },
+  {
+    "id": 9,
+    "nombre": "Cebolla y Queso (Fugazzeta)",
+    "precio": 1100,
+    "stock": 55,
+    "foto": "/images/empanadas/cebolla-queso.jpg",
+    "destacados": false,
+    "detalles": "Composición y proporciones del relleno (110g aprox.)\n55% Queso Mozzarella: Base principal del relleno.\n40% Cebolla blanca: Cortada en pluma, sudada al fuego con un toque de sal y orégano.\n5% Queso parmesano o sardo: Rallado para gratinar e intensificar el sabor.\n\nEspecificaciones de cocción\nTemperatura: Horno fuerte a 200°C.\nTiempo: 12 a 15 minutos.\n\nInformación para personas con alergias o intolerancias\nContiene leche: Por los quesos utilizados.\nContiene trigo (gluten): Por la masa."
+  },
+  {
+    "id": 10,
+    "nombre": "Carne Picante",
+    "precio": 1100,
+    "stock": 25,
+    "foto": "/images/empanadas/carne-picante.jpg",
+    "destacados": false,
+    "detalles": "Composición y proporciones del relleno (110g aprox.)\n50% Carne vacuna picada: Con porcentaje intermedio de grasa para mantener el jugo.\n35% Cebolla blanca y de verdeo: Cocinada lentamente en grasa vacuna.\n10% Caldo natural de carne: Absorbido en la cocción para garantizar jugosidad.\n5% Especias intensas: Ají molido picante, pimentón de Cachi y comino.\n\nEspecificaciones de cocción\nTemperatura: Horno muy fuerte a 220°C (cocción rápida para que no pierda el jugo).\nTiempo: 10 a 12 minutos.\n\nInformación para personas con alergias o intolerancias\nContiene trigo (gluten): Por la harina de la masa."
+  }
+]
