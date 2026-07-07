@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 
 import { useParams } from 'react-router-dom';
 
-function MovieDetail() {
+function Detail() {
 
   const { id } = useParams();
 
@@ -81,4 +81,4 @@ function MovieDetail() {
   );
 }
 
-export default MovieDetail;
+export default Detail;
