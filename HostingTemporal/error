@@ -12,3 +12,23 @@ tch event handler is recognized as no-op. No-op fetch handler may bring overhead
            </ProtectedRoute>
           }
         />
+
+
+++++++++++++++++++++++++++++++++
+<Route
+  path="/admin/cupones"
+  element={
+    <ProtectedRoute rolesPermitidos={['admin']}>
+      <GestionCupones />
+    </ProtectedRoute>
+  }
+/>
+
+<Route
+  path="/gestion"
+  element={
+    <ProtectedRoute rolesPermitidos={['admin']}>
+      <Gestion />
+    </ProtectedRoute>
+  }
+/>
