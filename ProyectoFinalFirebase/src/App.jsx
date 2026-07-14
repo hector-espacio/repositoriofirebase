@@ -2,7 +2,6 @@ import { Routes, Route } from "react-router-dom";
 
 import Layout from "./componentes/Layout/Layout";
 
-import ItemListContainer from "./componentes/ItemListContainer/ItemListContainer";
 
 import FormularioContainer from "./componentes/formularioNacionales/FormularioContainer";
 
@@ -23,6 +22,9 @@ import Gestion from "./componentes/Gestion/Gestion";
 import GestionCupones from "./componentes/GestionCupones/GestionCupones";
 
 import Login from "./componentes/Login/Login";
+import Registro from "./componentes/Registro/Registro";
+import ProtectedRoute from "./componentes/ProtectedRoute/ProtectedRoute";
+
 
 
 function App() {
@@ -52,32 +54,39 @@ function App() {
         <Route path="/carrito" element={<Cart />} />
 
 
-        <Route path="/gestion" element={<Gestion />} />
 
         <Route path="/login" element={<Login />} />
 
-        <Route path="/admin/cupones" element={<GestionCupones />} />
+        <Route path="/registro" element={<Registro />} />
 
+
+        <Route path="/cupones" element={
+           
+          <GestionCupones />} />
+      
+           
+           
         <Route
-          path="*"
-          element={<h1>404 - Página no encontrada</h1>}
+          path="/gestion"
+          element={
+            <ProtectedRoute rolesPermitidos={['admin']}>
+              <Gestion />
+            </ProtectedRoute>
+          }
         />
+      
+      <Route
+        path="*"
+        element={<h1>404 - Página no encontrada</h1>}
+      />
 
 
-        {/*
-        <Route path="/productos" element={<ItemListContainer destacados={false} />} />
-   
-        <Route
-          path="/productos/:id"
-          element={<Detail />}
-        />
-         */}
+      
 
 
+    </Route>
 
-      </Route>
-
-    </Routes>
+    </Routes >
   );
 }
 
