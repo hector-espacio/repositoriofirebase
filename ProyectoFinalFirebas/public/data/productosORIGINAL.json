@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "nombre": "Carne Cortada a Cuchillo",
+    "precio": 1200,
+    "stock": 50,
+    "foto": "/images/empanadas/cheeseburger.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Carne Suave",
+    "precio": 1100,
+    "stock": 80,
+    "foto": "/images/empanadas/carne-suave.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Jamón y Queso",
+    "precio": 1100,
+    "stock": 65,
+    "foto": "/images/empanadas/jamon-queso.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Pollo a la Crema",
+    "precio": 1150,
+    "stock": 40,
+    "foto": "/images/empanadas/pollo.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Caprese",
+    "precio": 1100,
+    "stock": 30,
+    "foto": "/images/empanadas/calabaza.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Humita",
+    "precio": 1150,
+    "stock": 35,
+    "foto": "/images/empanadas/humita.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Verdura y Salsa Blanca",
+    "precio": 1100,
+    "stock": 45,
+    "foto": "/images/empanadas/espinaca.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Roquefort con Apio y Nuez",
+    "precio": 1250,
+    "stock": 20,
+    "foto": "/images/empanadas/roquefort-jamon.jpg"
+  },
+  {
+    "id": 9,
+    "nombre": "Cebolla y Queso (Fugazzeta)",
+    "precio": 1100,
+    "stock": 55,
+    "foto": "/images/empanadas/cebolla-queso.jpg"
+  },
+  {
+    "id": 10,
+    "nombre": "Carne Picante",
+    "precio": 1100,
+    "stock": 25,
+    "foto": "/images/empanadas/carne-picante.jpg"
+  }
+]
