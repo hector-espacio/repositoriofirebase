@@ -5,9 +5,11 @@ import styles from './Header.module.css';
 import { useCart } from '../../../context/CartContext';
 import { useAuth } from '../../../context/AuthContext';
 
-const { user, logout } = useAuth();
+
 
 function Header() {
+
+const { user, logout } = useAuth();
 
   // 2. Extraemos tanto getCartQuantity como getCartTotal del contexto
   const { getCartQuantity, getCartTotal } = useCart();
