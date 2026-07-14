@@ -1,0 +1,14 @@
+// En FormularioProducto.jsx, dentro del return del form:
+
+<div>
+    <label>Categoría:</label>
+    <input
+        type="text"
+        placeholder="Ej: Periféricos"
+        name="categoria"
+        value={datosForm.categoria}
+        onChange={manejarCambio}
+        disabled={cargando}
+        required
+    />
+</div>
